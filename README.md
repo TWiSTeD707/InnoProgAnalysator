@@ -25,6 +25,7 @@
 ## Получите данные о решениях и оценках пользователя с помощью
 
 solutions_data = get_innoProg_user_solutions(user_id)
+
 scores_data = get_innoProg_user_scores(user_id)
 
 ## Вызовите функцию analyze_user_data с полученными данными:
