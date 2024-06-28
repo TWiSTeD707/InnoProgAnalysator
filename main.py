@@ -8,7 +8,7 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 from innoProg_api import get_innoProg_user_solutions, get_innoProg_user_scores, format_datetime, get_innoProg_task_description
 from analys import analyze_user_data
 
-BOT_TOKEN = "7349536466:AAEm8Bnw9MRAzTyls6uIzm2b_dx7foAI9PE" #Test Token
+BOT_TOKEN = "" #Test Token
 
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher(bot)
